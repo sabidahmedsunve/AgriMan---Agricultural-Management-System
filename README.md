@@ -68,7 +68,7 @@ If you’d like to improve **AgriMan**, fix a bug, or add a new feature, follow 
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/parthamallick49/AgriMan.git
-cd AgriMan
+https://github.com/sabidahmedsunve/AgriMan---Agricultural-Management-System.git
+cd AgriMan---Agricultural-Management-System
 
 

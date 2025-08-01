@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/marketPlace_moreOptin_createNewAd"
+        android:title="Create New Ad"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_add_new"/>
+
+   <!-- <item android:id="@+id/marketPlace_moreOptin_activeAd"
+        android:title="Active Ad"
+        android:icon="@drawable/icon_profile"/>-->
+</menu>

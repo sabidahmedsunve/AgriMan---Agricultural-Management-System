@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "219885971638",
+    "project_id": "agriman-85057",
+    "storage_bucket": "agriman-85057.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219885971638:android:ee451c75a8b4d6e72ede17",
+        "android_client_info": {
+          "package_name": "com.ppmdev.agriman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKkqjY6Rkml9HayVgLfM6XHsNS7p07IyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ash">#DFDFDF</color>
+
+    <color name="theamColor_1">#018141</color>
+    <color name="theamColor_2">#D0F3D56E</color>
+
+
+    <color name="color_home">#FFFFFF</color>
+    <color name="color_blog">#FFC107</color>
+    <color name="color_profile">#4CAF50</color>
+
+</resources>

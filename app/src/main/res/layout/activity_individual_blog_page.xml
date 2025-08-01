@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.IndividualBlogPage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_individual_blog_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        app:navigationIcon="@drawable/icon_back_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/theamColor_1"
+            android:text="Blog"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_individual_blog_view">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <ImageView
+                android:id="@+id/iv_individual_blog_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/pic_product_exemple"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/bg_marketplacebanner"
+                android:padding="8dp"/>
+
+
+            <TextView
+                android:id="@+id/tv_individual_blog_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Art and Science of Agriculture"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/tv_individual_blog_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agriculture is the art and science of cultivating the soil, growing crops, and raising livestock. It includes the preparation of plant and animal products for people to use and their distribution to markets.\n\nAgriculture provides most of the world's food and fabrics. Cotton, wool, and leather are all agricultural products. Agriculture also provides wood for construction and paper products.\n\nThese products, as well as the agricultural methods used, may vary from one part of the world to another."
+                android:layout_marginTop="15dp"
+                android:justificationMode="inter_word"
+                android:lineSpacingMultiplier="1.2"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/tv_individual_bolg_writerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By, Md. Karim Khan"
+                android:layout_marginTop="16dp"
+                android:textStyle="italic|bold"
+                android:textSize="14dp"
+                android:gravity="end" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

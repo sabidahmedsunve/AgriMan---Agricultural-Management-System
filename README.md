@@ -1,6 +1,6 @@
-# 📱 AgriMan – Smart Agricultural Management App
+# 📱 AgriMan – Agricultural Management System Application
 
-**AgriMan** is a powerful and easy-to-use **Agricultural Management System** designed to empower **farmers**, **sellers**, and **buyers** with real-time access to critical agricultural data and services. Built for modern farming needs, AgriMan integrates **live weather updates**, **market prices**, and a **buy/sell marketplace** — all in one Android app.
+**AgriMan** is a powerful and easy-to-use **Agricultural Management System Application** designed to empower **farmers**, **sellers**, and **buyers** with real-time access to critical agricultural data and services. Built for modern farming needs, AgriMan integrates **live weather updates**, **market prices**, and a **buy/sell marketplace** — all in one Android app.
 
 > 📡 Powered by Firebase | ⚙️ Developed in Java 
 
